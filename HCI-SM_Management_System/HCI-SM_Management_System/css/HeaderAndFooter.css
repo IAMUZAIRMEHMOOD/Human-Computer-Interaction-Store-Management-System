@@ -1,0 +1,24 @@
+﻿  .page-header {
+    padding:0px;
+    background-color:#77bddc;
+    margin:0px;
+    text-align:center;
+    }
+h1 {
+    font-size:80px;
+    font:bold;
+    font-family:Algerian;
+
+}
+    *{
+    padding:0px;
+    margin:0px;
+    }
+.footer {
+ padding-top:40px;
+}
+p
+{
+    background-color:#77bddc;
+    text-align:center;
+}

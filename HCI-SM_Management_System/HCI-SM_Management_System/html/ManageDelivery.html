@@ -1,0 +1,132 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../css/HeaderAndFooter.css" rel="stylesheet" />
+    <link href="../css/Manage.css" rel="stylesheet" />
+    <title>Manage Delivery</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <header class="page-header">
+        <h1>Home Delivery Management</h1>
+    </header>
+    <form name="form1">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="id" class="labels">ID</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="number" id="deliveryid" placeholder="Enter Delivery ID" />
+                    </div>
+                    <div class="col-lg-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="number" class="labels">Ph Number</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="text" id="number" placeholder="Enter Phone Number" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="vehicleid" class="labels">Vehicle Id</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="number" id="vid" placeholder="Select Vehicle ID" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="Vehicle Company" class="labels">Vehicle Name</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="text" id="name" placeholder="Auto Select" readonly />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="capacity" class="labels">Capacity</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="text" id="capacity" placeholder="Auto Select" readonly />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="address" class="labels">Address</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="text" id="address" placeholder="Enter Address" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="button form-control btn-success">Add</button>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="button form-control btn-danger">Delete</button>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="button form-control btn-info">Update</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="button form-control btn-warning">View</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-3">
+                    <label for="searchname" class="labels">Search Name</label>
+                </div>
+                <div class="col-lg-6" style="width:16%;">
+                    <input class="form-control" type="text" id="search name" placeholder="Enter Name To Search" />
+                </div>
+                <div class="col-lg-8">
+                    <div class="dataview">
+                        <table class="table" style="height:450px">
+                            <tr>
+                                <th>
+                                    Delivery ID
+                                </th>
+                                <th>
+                                    Order ID
+                                </th>
+                                <th>
+                                    Vehicle ID
+                                </th>
+                                <th>
+                                    Customer Name
+                                </th>
+                                <th>
+                                    Phone Number
+                                </th>
+                                <th>
+                                    Placed By
+                                </th>
+                                <th>
+                                    Date of Purchase
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <footer class="footer">
+        <p>All Rights Reserved | <strong style="color:blue">@UNS-Systems</strong></p>
+    </footer>
+</body>
+</html>

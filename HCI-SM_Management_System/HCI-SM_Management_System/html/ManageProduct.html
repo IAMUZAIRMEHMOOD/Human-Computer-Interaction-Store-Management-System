@@ -1,0 +1,140 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../css/HeaderAndFooter.css" rel="stylesheet" />
+    <link href="../css/Manage.css" rel="stylesheet" />
+    <title>Manage Product</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <header class="page-header">
+        <h1>Manage Products</h1>
+    </header>
+    <form name="form1">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="id" class="labels">Id</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="number" id="idadmin" placeholder="Select Id" />
+                    </div>
+                    <div class="col-lg-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="name" class="labels">Name</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="text" id="name" placeholder="Enter Name" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="quantity" class="labels">Quantity</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="number" id="quantity" placeholder="Select Quantity" required/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="price" class="labels">Price</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="number" id="price" placeholder="Select Price" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="weight" class="labels">Weight</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="number" id="weight" placeholder="Select Weight" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="Supplier Id" class="labels">Supplier ID</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="number" id="supplierid" placeholder="Select Supplier ID"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="supplier name" class="labels">Supplier Name</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="number" id="suppliername" placeholder="Auto Select from Supplier ID" readonly/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="button form-control btn-success">Add</button>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="button form-control btn-danger">Delete</button>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="button form-control btn-info">Update</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="button form-control btn-warning">View</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-3">
+                    <label for="searchname" class="labels">Search Name</label>
+                </div>
+                <div class="col-lg-6" style="width:16%;">
+                    <input class="form-control" type="text" id="search name" placeholder="Enter Name To Search" />
+                </div>
+                <div class="col-lg-8">
+                    <div class="dataview">
+                        <table class="table" style="height:500px;">
+                            <tr>
+                                <th>
+                                    Id
+                                </th>
+                                <th>
+                                    Name
+                                </th>
+                                <th>
+                                    Quantity
+                                </th>
+                                <th>
+                                    Price
+                                </th>
+                                <th>
+                                    Weight 
+                                </th>
+                                <th>
+                                    Supplier Id
+                                </th>
+                                <th>
+                                    Supplier Name
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <footer class="footer">
+        <p>All Rights Reserved | <strong style="color:blue">@UNS-Systems</strong></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,133 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../css/HeaderAndFooter.css" rel="stylesheet" />
+    <link href="../css/Manage.css" rel="stylesheet" />
+    <title>Manage Vehicle</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <header class="page-header">
+        <h1>Manage Vehicles</h1>
+    </header>
+    <form name="form1">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="id" class="labels">Id</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="number" id="idadmin" placeholder="Select Vehicle Id" />
+                    </div>
+                    <div class="col-lg-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="name" class="labels">Name</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="text" id="name" placeholder="Enter Vehicle Name" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="number" class="labels">Number</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="text" id="number" placeholder="Select Vehicle Number" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="Vehicle Company" class="labels">Company Name</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="text" id="name" placeholder="Enter Vehicle Name" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="capacity" class="labels">Capacity</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="text" id="capacity" placeholder="Enter Vehicle Capacity" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="dateOfpurchase" class="labels">Date Of Purchase</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="form-control" type="text" id="dateofpurchase" placeholder="Select Date Of Purchase" />
+                        <span class="glyphicon glyphicon-calendar icon"> </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="button form-control btn-success">Add</button>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="button form-control btn-danger">Delete</button>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="button form-control btn-info">Update</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="button form-control btn-warning">View</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-3">
+                    <label for="searchname" class="labels">Search Name</label>
+                </div>
+                <div class="col-lg-6" style="width:16%;">
+                    <input class="form-control" type="text" id="search name" placeholder="Enter Name To Search" />
+                </div>
+                <div class="col-lg-8">
+                    <div class="dataview">
+                        <table class="table" style="height:500px">
+                            <tr>
+                                <th>
+                                    Id
+                                </th>
+                                <th>
+                                    Name
+                                </th>
+                                <th>
+                                    Number
+                                </th>
+                                <th>
+                                    Vehicle Company
+                                </th>
+                                <th>
+                                    Capacity
+                                </th>
+                                <th>
+                                    Max Load
+                                </th>
+                                <th>
+                                    Date of Purchase
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <footer class="footer">
+        <p>All Rights Reserved | <strong style="color:blue">@UNS-Systems</strong></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,57 @@
+﻿
+        .button {
+            font-family:'Times New Roman';
+            font-size:23px;   
+            text-align:center; 
+        }
+        /*.add {
+            padding-bottom:70px;
+            padding-left:8%;
+            position:absolute;
+        }
+        .update{
+            padding-left:17%;
+            position:absolute;
+        }
+        .delete {
+            padding-left:26%;
+            position:absolute;
+        }
+        
+         .view{
+            padding-left:17%;
+            position:absolute;
+            padding-bottom:37px;
+        }*/
+        .labels 
+        {
+            padding-left:120px;
+            font-family:'Times New Roman';
+            font-size:25px;
+        }
+        .row {
+         padding-top:20px;
+        }
+        .icon {
+         position:absolute;
+         float:right;
+         padding-left:272px;
+         padding-top:7px;
+        }
+        .dataview {
+        height:500px;
+
+        }
+        tr {
+        border:solid;
+        }
+        th {
+        text-align:center;
+         border:1px solid ;
+        }
+        td {
+          border:dashed;
+        }
+        .table {
+        height:550px;
+        }
